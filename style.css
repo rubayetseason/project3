@@ -1,3 +1,27 @@
 body {
     font-family: 'Martel', serif;
 }
+.banner {
+    filter: brightness(40%);
+}
+
+
+
+
+
+
+/* media query */
+@media only screen and (max-width:688px) {
+    .ban-text {
+        font-size: 10px !important;
+    }
+    .ban-title {
+        font-size: large !important;
+    }
+    .ban {
+        padding-bottom: 0 !important;
+    }
+    .ban-btn {
+        font-size: 12px !important;
+    }
+}
