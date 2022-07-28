@@ -37,7 +37,15 @@ body {
     }
 }
 
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .ex-p {
+        font-size: small;
+    }
 
+    .ex-height {
+        height: 100% !important;
+    }
+}
 
 
 
