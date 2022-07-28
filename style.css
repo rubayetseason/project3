@@ -1,27 +1,65 @@
 body {
     font-family: 'Martel', serif;
 }
+
 .banner {
     filter: brightness(40%);
 }
 
-
+.green {
+    color: green;
+}
 
 
 
 
 /* media query */
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:576px) {
     .ban-text {
         font-size: 10px !important;
     }
+
     .ban-title {
         font-size: large !important;
     }
+
     .ban {
         padding-bottom: 0 !important;
     }
+
     .ban-btn {
         font-size: 12px !important;
     }
+
+    .cour {
+        width: 100%;
+        height: 300px;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4r">
+                            <img src="images/course/course-1.png" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Fundamental of UI/UX Design</h5>
+                                <p class="card-text">Passion for latest technology trends can find you fulfillment in
+                                    the design process for
+                                    the next hot gadget</p>
+                                <h5 class="fw-bolder">Price: 20$</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div> */
