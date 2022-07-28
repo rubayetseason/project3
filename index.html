@@ -182,7 +182,7 @@
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <div
-                            class="course border rounded-1 d-flex flex-column flex-sm-row flex-md-row flex-lg-row flex-xl-row">
+                            class="course border rounded-1 d-flex flex-column flex-sm-row flex-md-row flex-lg-row flex-xl-row none">
                             <div class="course-img">
                                 <img class="cour" src="images/course/course-5.png">
                             </div>
@@ -196,7 +196,7 @@
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <div
-                            class="course border rounded-1 d-flex flex-column flex-sm-row flex-md-row flex-lg-row flex-xl-row">
+                            class="course border rounded-1 d-flex flex-column flex-sm-row flex-md-row flex-lg-row flex-xl-row none">
                             <div class="course-img">
                                 <img class="cour" src="images/course/course-6.png">
                             </div>
@@ -214,9 +214,12 @@
         <!-- course part -->
 
         <!-- view all btn  -->
-        <div class="d-grid col-2 mx-auto mt-5">
+        <!-- <div class="d-grid col-4 mx-auto mt-5">
             <button class="btn btn-success py-2 rounded-0 fw-bold" type="button">View All</button>
-        </div>
+        </div> -->
+        <a href="#"
+            class="bg-success text-light text-decoration-none fw-bold py-2 px-1 text-center d-block w-25 mx-auto mt-5">View
+            All</a>
         <!-- view all btn  -->
 
 
@@ -276,10 +279,33 @@
                     <p class="text-light ex-p">Other necessary updates will also be provided.</p>
                 </div>
                 <div class="reg-btn">
-                    <button type="button" class="btn btn-light text-success fw-bold rounded">Join Now</button>
+                    <button type="button" class="btn btn-light text-success fw-bold rounded" data-bs-toggle="modal"
+                        data-bs-target="#reg-modal">Register Now</button>
                 </div>
             </div>
         </section>
+
+
+        <!-- modal here -->
+        <di class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bolder" id="modal-title">Get updates from 5 Minute School Team</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Enter your respective email down below for latest updates, offers, and more...</p>
+                        <label for="modal-email" class="form-label fw-bolder">Your email address:</label>
+                        <input type="email" class="form-control" id="modal-email" placeholder="e.g. montu@example.com">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-success">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </di>
+        <!-- modal here -->
         <!-- register part -->
     </main>
     <!-- main here  -->
