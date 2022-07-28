@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     font-family: 'Martel', serif;
 }
 
@@ -13,7 +14,6 @@ body {
 .fa-solid {
     color: orange;
 }
-
 
 /* media query */
 @media only screen and (max-width:576px) {
@@ -63,29 +63,8 @@ body {
     .none {
         display: none !important;
     }
+
+    .cent {
+        text-align: center;
+    }
 }
-
-
-
-
-
-
-
-
-
-/* <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4r">
-                            <img src="images/course/course-1.png" class="img-fluid rounded-start">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Fundamental of UI/UX Design</h5>
-                                <p class="card-text">Passion for latest technology trends can find you fulfillment in
-                                    the design process for
-                                    the next hot gadget</p>
-                                <h5 class="fw-bolder">Price: 20$</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div> */
